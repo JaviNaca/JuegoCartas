@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+}
+#contenedor{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*ESTILOS JUGADORES*/
+#contenedorJugadores{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cabeceraJugador{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 20px;
+    color: white;
+    border-bottom: 2px solid #2f6627;
+}
+.cabeceraJugador img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  .estadisticasJugador{
+    color: white;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+  }
+
+
+/*ESTILOS TABLERO*/
+#contenedorTablero{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#contenedorDeck{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#deck{
+    width: 250px;
+    height: 350px;
+    border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(245,245,228,1);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(245,245,228,1);
+    box-shadow: 0px 0px 18px 0px rgba(245,245,228,1);
+    border: 3px dashed #ffffff;
+}
+#deck img{
+    width: 250px;
+    height: 350px;
+    border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+}
+#selectCard{
+    width: 250px;
+    height: 350px;
+    border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    border: 3px dashed #ffffff;
+}
+#selectCard img{
+    width: 250px;
+    height: 350px;
+    border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+}
+
+#contenedorAcciones{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnAccion{
+    background-color:#44c767;
+	border-radius:19px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btnAccion:hover {
+	background-color:#5cbf2a;
+}
+
+
+/*ESTILOS DESCARTE*/
+#contenedorDescartes{
+    width: 20%;
+    height: 100vh;
+    
+}
+.h2CartasDescartadas{
+    border-bottom: 2px solid #2f6627;
+    color: white;
+    margin-top: 20px;
+}
+
+#listaDescarte{
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.jugadorActivo {
+    color: #f5ff2d; /* Amarillo brillante */
+    text-shadow: 0 0 10px #f5ff2d; /* Efecto de resplandor */
+}

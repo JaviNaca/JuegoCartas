@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardGame</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <div id="contenedor">
+
+        <!-- JUGADORES -->
+        <div id="contenedorJugadores">
+            <div class="contenedorJugador">
+                <div class="cabeceraJugador">
+                    <img src="img/avatar/avatar_a.png">
+                    <h2>Jugador 1</h2>
+                </div>
+                <div class="estadisticasJugador">
+                    <p id="J1NumCartas">⚪️ Número de cartas: </p>
+                    <p id="J1Puntos">⚪️ Puntos totales: </p>
+                    <p id="J1saltoTurno">⚪️ Cartas salto turno: </p>
+                    <p id="J1Desactivacion">⚪️ Cartas desactivación: </p>
+                </div>
+            </div>
+            <div class="contenedorJugador">
+                <div class="cabeceraJugador">
+                    <img src="img/avatar/avatar_b.png">
+                    <h2>Jugador 2</h2>
+                </div>
+                <div class="estadisticasJugador">
+                    <p id="J2NumCartas">⚪️ Número de cartas: </p>
+                    <p id="J2Puntos">⚪️ Puntos totales: </p>
+                    <p id="J2saltoTurno">⚪️ Cartas salto turno: </p>
+                    <p id="J2Desactivacion">⚪️ Cartas desactivación: </p>
+                </div>
+            </div>
+            <div class="contenedorJugador">
+                <div class="cabeceraJugador">
+                    <img src="img/avatar/avatar_c.png">
+                    <h2>Jugador 3</h2>
+                </div>
+                <div class="estadisticasJugador">
+                    <p id="J3NumCartas">⚪️ Número de cartas: </p>
+                    <p id="J3Puntos">⚪️ Puntos totales: </p>
+                    <p id="J3saltoTurno">⚪️ Cartas salto turno: </p>
+                    <p id="J3Desactivacion">⚪️ Cartas desactivación: </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TABLERO -->
+        <div id="contenedorTablero">
+            <div id="contenedorDeck">
+                <div id="deck">
+                    <img src="img/deck/deck.png">
+                </div>
+                <div id="selectCard">
+                    <img id="imgCartaRobada" src="">
+                </div>
+
+            </div>
+            <div id="contenedorAcciones">
+                <button id="btnRobar" class="btnAccion">Robar carta</button>
+                <button id="btnPasar" class="btnAccion">Pasar Turno</button>
+            </div>
+        </div>
+
+        <!-- Descarte -->
+        <div id="contenedorDescartes">
+            <h2 class="h2CartasDescartadas">Cartas descartadas</h2>
+            <ul id="listaDescarte">
+              </ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
