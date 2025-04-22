@@ -9,7 +9,6 @@ let mazo = [];          // Mazo principal
 let descarte = [];      // Cartas descartada
 let turnoActual = 0;    // Índice del jugador al que le toca el turno
 
-// === FUNCIONES AUXILIARES BÁSICAS === //
 
 // Crea el mazo con tipos de cartas definidos y sus cantidades
 function generarMazo() {
